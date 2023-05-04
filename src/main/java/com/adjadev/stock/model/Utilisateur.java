@@ -14,8 +14,8 @@ import java.util.List;
 
 @Data
 @SuperBuilder
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 @Entity
 @Table(name = "utilisateur")

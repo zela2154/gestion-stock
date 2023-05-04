@@ -72,5 +72,18 @@ public class UtilisateurDto {
         utilisateur.setEntreprise(EntrepriseDto.toEntity(utilisateurDto.getEntreprise()));
         utilisateur.setRole(utilisateurDto.getRole());
         return utilisateur;
+       /* return Utilisateur.builder()
+                .id(utilisateurDto.getId())
+                .nom(utilisateurDto.getNom())
+                .prenom(utilisateurDto.getPrenom())
+                .email(utilisateurDto.getEmail())
+                .motPasse(passwordEncoder.encode(utilisateurDto.getMotPasse()))
+                .dateNaissance(utilisateurDto.getDateNaissance())
+                .adresse(AdresseDto.toEntity(utilisateurDto.getAdresse()))
+                .photo(utilisateurDto.getPhoto())
+                .entreprise(EntrepriseDto.toEntity(utilisateurDto.getEntreprise()))
+                .role(utilisateurDto.getRole())
+                .build();*/
+
     }
 }
