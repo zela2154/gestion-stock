@@ -1,6 +1,5 @@
 package com.adjadev.stock.config;
 
-import com.adjadev.stock.model.auth.ExtendedUser;
 import com.adjadev.stock.token.TokenRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
